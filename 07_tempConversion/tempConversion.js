@@ -1,12 +1,12 @@
 const convertToCelsius = function(temp) {
     var celsius = (temp-32)*5/9 ;//convert to celsius
-    parseFloat(celsius.toFixed(1));
+    celsius = parseFloat(celsius.toFixed(1));
     return celsius;
 };
 
 const convertToFahrenheit = function(temp) {
     var Fahrenheit = (temp*9/5) + 32 ;// convert to F 
-    parseFloat(Fahrenheit.toFixed(1));
+    Fahrenheit = parseFloat(Fahrenheit.toFixed(1));
     return Fahrenheit;
 };
 
