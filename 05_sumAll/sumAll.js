@@ -7,9 +7,9 @@ const sumAll = function(int1,int2) {
             }
             return sum;
         }
-        if (int2 > int1) {
-            for (var j=int1; i<=int2; i++) {
-                sum +=i;
+        if (int1 < int2) {
+            for (var j=int1; j<=int2; j++) {
+                sum += j;
             }
             return sum;
         }
